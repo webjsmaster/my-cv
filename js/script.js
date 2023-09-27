@@ -43,7 +43,6 @@ button.addEventListener('click', () => {
 ;
 
 
-//^ JS-функция определения поддержки WebP
 document.addEventListener('DOMContentLoaded', function() {
     testWebP(document.body)
 })
