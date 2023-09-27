@@ -571,6 +571,9 @@ h1, h2, h3, h4, h5, h6 {
 .block__contacts {
   margin-left: 30px;
   margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .block__contacts li {
   font-size: 24px;
@@ -590,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: #F3F3F3;
+  color: #3A3D42;
 }
 .block__contacts li:hover > a > div > picture > img {
   -webkit-transition: all 0.3s ease 0s;
@@ -671,50 +674,6 @@ h1, h2, h3, h4, h5, h6 {
 .projects__skills-box img {
   width: 100%;
   height: 100%;
-}
-
-.footer {
-  border-top: 5px solid #3A3D42;
-}
-.footer__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 30px;
-}
-.footer__item {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.footer__item a {
-  width: 150px;
-  height: 150px;
-  display: block;
-}
-.footer__item a img {
-  width: 100%;
-  height: 100%;
-}
-.footer__title {
-  font-size: 34px;
-  font-family: Poppins-Light;
 }
 
 .button-up {
